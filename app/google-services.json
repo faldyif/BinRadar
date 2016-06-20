@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "559143050766",
+    "firebase_url": "https://throwit-6c7fc.firebaseio.com",
+    "project_id": "throwit-6c7fc",
+    "storage_bucket": "throwit-6c7fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559143050766:android:ffa88a218e920833",
+        "android_client_info": {
+          "package_name": "id.ristech.throwit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559143050766-tml5uq1bo4gm9etq7n1svrcpvehii1d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi6t27-RBMjuvDqqKJWeUL7FgaBhwjJHo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
