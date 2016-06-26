@@ -1,4 +1,4 @@
-package id.ristech.throwit;
+package id.ristech.binradar;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
