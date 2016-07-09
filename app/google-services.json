@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "164314079316",
+    "firebase_url": "https://binradar-1354.firebaseio.com",
+    "project_id": "binradar-1354",
+    "storage_bucket": "binradar-1354.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164314079316:android:e6f8375d7f4f54b9",
+        "android_client_info": {
+          "package_name": "id.ristech.binradar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164314079316-3nsguvdof35a73mi2k7m7hqva2iqp1jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfQ_6oWxmIrAsXKUBBPs9Vemz2anG6WUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

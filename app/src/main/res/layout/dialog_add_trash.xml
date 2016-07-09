@@ -1,6 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_top_margin"
+        android:layout_marginLeft="@dimen/dialog_left_right_margin"
+        android:layout_marginRight="@dimen/dialog_left_right_margin"
+        android:layout_marginBottom="@dimen/dialog_separator_margin"
+        android:orientation="horizontal">
 
+        <RadioButton
+            android:id="@+id/trash_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/trash_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium" />
+        <RadioButton
+            android:id="@+id/trash_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large" />
+        
+    </RadioGroup>
+    <EditText
+        android:id="@+id/description"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_separator_margin"
+        android:layout_marginLeft="@dimen/dialog_left_right_margin"
+        android:layout_marginRight="@dimen/dialog_left_right_margin"
+        android:layout_marginBottom="@dimen/dialog_bottom_margin"
+        android:fontFamily="sans-serif"
+        android:hint="Short description"/>
 </LinearLayout>
